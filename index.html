@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>University of Tsukuba credit checker</title>
+    <!-- 外部ファイル読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+    <!-- 外部ファイル読み込み終了 -->
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar">
+
+    <div id="home">
+
+  <nav class="navvar navbar-expand-md fixed-top d-flex">
+
+    <h2 class="my-2 ml-2 title">CREDIT CHECKER</h2>
+
+    <div class="collapse navbar-collapse" id="navbar">
+    <ul class="nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#feature">FEATURE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#howtouse">HOW TO USE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#jugement">JUGEMENT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">CONTACT</a>
+      </li>
+    </ul>
+   </div>
+  </nav>
+
+
+    <div class="landing">
+      <div class="img-warp">
+       <div class="inner-img">
+      </div>
+    </div>
+  </div>
+
+  <div class="caption text-center">
+    <h1 class="bg-light">University of Tsukuba <br> credit checker</h1>
+  </div>
+
+</div>
+
+  <div id="about" class="text-center">
+      <h2 class="pt-4 heading"><span class="purple">-</span>ABOUT<span class="purple">-</span></h2>
+      <div class="col-12 narrow text-center mb-5">
+        <p class="lead mb-4">TWINSの卒業判定の機能が使用できないので、本サイトを立ち上げました。<br>
+        卒業判定以外にもあと何を何単位取れば良いかが一目で分かるようになっています。</p>
+        <a class="btn btn-purple btn-md" href="https://twins.tsukuba.ac.jp/campusweb/campusportal.do"
+        target="_blank">TWINSに移動</a>
+      </div>
+  </div>
+
+  <div id="feature" class="">
+
+  <div class="feature text-center offset">
+    <div class="narrow">
+      <div class="col-12 text-center">
+      <h2 class="heading"><span class="purple">-</span>FEATURE<span>-</span></h2>
+      </div>
+
+      <div class="row text-center">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="features">
+                <i class="fas fa-box-open fa-4x purple"
+                data-fa-transform="shrink-3 up-2"></i>
+                <h3>単位の仕分け</h3>
+                <p>卒業要件に沿った単位の仕分けを自動で行います。</p>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="features">
+                <i class="fas fa-sort-numeric-up fa-4x purple"
+                data-fa-transform="shrink-4.5 up-2"></i>
+                <h3>単位数の計算</h3>
+                <p>仕分けた単位の合計をカテゴリーごとに<br>表として出力します。</p>
+              </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+              <div class="features">
+                <i class="fas fa-question fa-4x purple"
+                data-fa-transform="shrink-4.5 up-2"></i>
+                <h3>残り単位数の確認</h3>
+                <p>残りあと何を何単位取得すべきかを表示します。</p>
+              </div>
+            </div>
+      </div>
+  </div>
+
+  </div>
+
+  <div id="howtouse"class="">
+    <div class="text-center offset">
+        <h2 class="heading mb-4"><span class="purple">-</span>HOW TO USE<span>-</span></h2>
+      <div class="narrow">
+    <div class="col-12 mb-4">
+      <div class="">
+        <p>1.TWINSにログインして成績タブを選択</p>
+        <img src="img/ex1.png" alt="">
+      </div>
+    </div>
+    <div class="col-12 mb-4">
+      <div class="">
+        <p>2.ページ下部のダウンロードボタンをクリック</p>
+        <img src="img/ex2.png" alt="">
+      </div>
+    </div>
+    <div class="col-12 mb-4">
+      <div class="">
+        <p>3.CSVとUnicodeにチェックを入れて出力ボタンをクリック</p>
+        <img src="img/ex3.png" alt="">
+      </div>
+    </div>
+    <div class="col-12 mb-4">
+      <div class="">
+        <p>4.本サイト下部で所属とダウンロードしたファイルを選択し、判定開始ボタンをクリック</p>
+        <img src="img/ex4.png" alt="">
+      </div>
+    </div>
+    <div class="col-12 mb-4">
+      <div class="">
+        <h3>-COUTION-</h3>
+        <h4>・あくまで確認方法の一つだと考えて下さい。</h4>
+        <h4>・履修中の科目も修得したものとしてカウントしています。</h4>
+        <h4>・単位互換は自分で成績ファイルに該当する科目番号を加えてください。</h4>
+        <h4>・最適化を行っておりませんので、上限をオーバーしてしまう可能性があります。</h4>
+      </h4>
+      </div>
+   </div>
+  </div>
+</div>
+
+<div id="jugement" class="text-center">
+    <h2 class="pt-4 heading"><span class="purple">-</span>JUGEMENT<span class="purple">-</span></h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <p class="text-left mb-1"><b>所属:</b></p>
+          <select class="form-control"id="list" name="">
+
+          </select>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <p class="text-left mb-1"><b>ファイル選択:</b></p>
+          <input class="form-control form" type="file" id="file" size="30"></p>
+        </div>
+          <p class="mx-auto"><input class="form-control jugement_btn" id="start" type="submit" value="判定開始"></p>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div id="result_section" class="text-center">
+    <h2 class="pt-4 heading"><span class="purple">-</span>RESULT<span class="purple">-</span></h2>
+    <div class="col-12 narrow mx-auto">
+      <div id="table">
+
+      </div>
+    </div>
+</div>
+
+<div id="contact" class="text-center">
+    <h2 class="pt-4 mb-3 heading"><span class="white">-</span>CONTACT<span class="white">-</span></h2>
+    <div class="col-12 narrow text-center mb-3">
+      <p class="white mb-5">筑波大学 社会国際学群 国際総合学類卒業<br>
+        </p>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"
+        data-fa-transform="shrink-3 up-2"></i></a>
+      <p class="white">バグ等お問い合わせはこちらによろしくお願いします。</p>
+    </div>
+</div>
+
+
+    <!-- 外部ファイル読み込み -->
+
+    <script src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- 外部ファイル読み込み終了 -->
+
+  </body>
+    <script src="js/main.js"></script>
+</html>
