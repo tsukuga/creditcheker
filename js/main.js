@@ -827,10 +827,10 @@ const Lists = {
           {class1:"基礎科目",class2:"関連科目",class3:"自由科目",
           about:"教職に関する科目",
           number:["90","91","92","93","94","95","96","97","98"],name:["–"],credit_min:0,credit_max:12,
-          class1_min:0,class1_max:23,remove:"-",restriction:[["-"],["-"],
+          class1_min:0,class1_max:23,remove:"-",restriction:[["-"],["-"]]},
                                                              
                                                              
-           {必修科目:33,選択科目:48,自由科目:45,合計:126}],
+           {必修科目:33,選択科目:48,自由科目:45,合計:126},
            
           
           },
